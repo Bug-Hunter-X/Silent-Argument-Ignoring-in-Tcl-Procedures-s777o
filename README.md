@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, error in Tcl: the silent ignoring of extra arguments passed to a procedure.  The `bug.tcl` file shows a procedure that doesn't explicitly handle extra arguments. The solution in `bugSolution.tcl` shows how to properly check the number of arguments using `llength`.
